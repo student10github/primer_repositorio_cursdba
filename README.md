@@ -1,10 +1,9 @@
 # primer_repositorio_cursdba 👍 
----
-
 Repositorio de ejercicios del curso del DBA
 
 
 # Introducción 
+---
 Este respositório hace referencia al curso introductório a Django, framework de Python.
 Contén una carpeta guia que está organizada en los diferentes capítulos a seguir relacionados:
 
