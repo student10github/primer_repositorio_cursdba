@@ -1,0 +1,38 @@
+<!-- LEANDRO ANDRADE -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>M2 UF1</title>
+</head>
+<body>
+
+<form method="POST" id="nuevo_empleado" action="vista_anadir">
+	{% csrf_token %}
+	<fieldset>
+		<legend><strong>Nuevo empleado</strong></legend>
+
+		<br/><br/>
+		<label for="empnum">empnum:</label>
+		<input type="text" id="empnum" name="empnum" size="20px"><br/><br/>
+
+		<label for="enombre">enombre:</label>
+		<input type="text" id="enombre" name="enombre" size="20px"><br/><br/>
+
+		<label for="sal">sal:</label>
+		<input type="text" id="sal" name="sal" size="20px"><br/><br/>
+
+
+		<label for="puesto">puesto:</label>
+		<select id="puesto" name="puesto">
+			<option value="ventas"  selected="selected">VENTAS</option>
+			<option value="oficinista">OFICINISTA</option>
+			<option value="jefe">JEFE</option>
+		</select><br/><br/>
+
+		<input type="submit" name="enviar" value="enviar">
+</fieldset>
+</form>
+
+</body>
+</html>

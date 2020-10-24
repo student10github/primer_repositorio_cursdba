@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<!--
+"""
+{% for carpeta in carpetas %}
+{% endfor %}
+"""
+-->
+
+<ul>
+    <li><a href="{% url 'menu_infantil' %}"> Menú Infantil </a></li>
+    <li><a href="{% url 'receta_facil' %}"> Receta_Facil </a></li>
+    <li><a href="{% url 'mafe' %}"> mafe </a></li>
+    <li><a href="{% url 'feijoada' %}"> Feijoada </a></li>
+    <li><a href="{% url 'pizza' %}"> pizza </a></li>
+    <li><a href="{% url 'canelones' %}"> Canelones </a></li>
+    <li><a href="{% url 'flor_de_calabacin' %}"> Flor_de_calabacin </a></li>
+    <li><a href="{% url 'gazpacho' %}"> Gazpacho </a></li>
+    <li><a href="{% url 'sopa_de_noodles' %}"> Sopa_de_Noodles </a></li>
+    <li><a href="{% url 'ensaladilla_rusa' %}"> ensaladilla_rusa </a></li>
+    <li><a href="{% url 'carbonara' %}"> carbonara </a></li>
+</ul>
+
+</body>
+</html>

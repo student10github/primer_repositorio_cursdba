@@ -1,0 +1,3 @@
+[]
+[('alta', 't1', 'escrito 1'), ('alta', 't2', 'escrito 2\r\n')]
+[('alta', 't1', 'escrito 1'), ('alta', 't2', 'escrito 2\r\n'), ('alta', 't3', 'e3')]

@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Notas PDF</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+    <h1>Notas PDF</h1>
+    {% for nota in notas %}
+        <fieldset>
+            <legend>{{ nota.prioridad }} - {{ nota.titulo }}</legend>
+            {{ nota.contenido }}<br>
+        </fieldset>
+        <br>
+    {% endfor %}
+    </body>
+</html>

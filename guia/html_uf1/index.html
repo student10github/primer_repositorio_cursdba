@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML UF1</title>
+</head>
+<body>
+
+<form method="POST" id="catalogo_animales">
+	<fieldset>
+		<legend><strong>CATÁLOGO DE ANIMALES</strong></legend>
+
+		<br/><br/>
+		<label for="especie">Especie:</label>
+		<input type="text" id="especie" name="especie" size="20px" placeholder="Especies"><br/><br/>
+
+		<label for="peso">Peso:</label>
+		<input type="text" id="peso" name="peso" size="5px"><br/><br/>
+
+		<label for="genero">Género:</label><br/>
+		<input type="radio" name="sexo" value="macho">Macho<br/>
+		<input type="radio" name="sexo" value="hembra">Hembra<br/><br/>
+
+		<label for="tipo">Tipo:</label>
+		<select id="tipo" name="tipo">
+			<option value=""  selected="selected">seleccione especie</option>
+			<option value="mamifero">Mamífero</option>
+			<option value="pez">Pez</option>
+			<option value="ave">Ave</option>
+			<option value="insecto">Insecto</option>
+			<option value="reptil">Reptil</option>
+			<option value="anfibio">Anfibio</option>
+		</select><br/><br/>
+
+		<label for="numero_de_patas">Número de patas:</label>
+		<select id="numero_de_patas" name="numero_de_patas">
+			<option value="1"  selected="selected">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+		</select><br/><br/>
+
+		<label for="tipo">Comentarios:</label><br/>
+		<textarea cols="40" rows="3"></textarea><br/><br/>
+
+		<label for="tipo">Alergias:</label><br/>
+			<input type="checkbox" name="penicilina">
+			<label for="penicilina">Penicilina</label><br/>
+			
+			<input type="checkbox" name="cacahuetes">
+			<label for="cacahuetes">Cacahuetes</label><br/>
+
+			<input type="checkbox" name="polvo">
+			<label for="polvo">Polvo</label><br/>
+		
+
+		<input type="submit" name="enviar" value="Enviar">
+
+</fieldset>
+</form>
+
+<marquee behaviour=alternate scrolldelay=5 bgcolor="#ff8833">
+	<img src="images/vaca2.webp" height="200px"> Mamífero &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; 
+	<img src="images/pez.webp" height="50px"> Pez &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; 
+	<img src="images/ave.webp" height="200px"> Ave &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; 
+	<img src="images/abeja.png" height="100px"> Insecto &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; 
+	<img src="images/reptil.jpg" height="100px"> Reptil &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; 
+</marquee> 
+
+</body>
+</html>

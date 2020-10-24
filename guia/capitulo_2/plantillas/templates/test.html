@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+
+</head>
+<body id="body">
+
+<div id="container">
+    <header id="header">
+        <img src="" alt="" id="logo">
+        <nav id="nav">
+            <ul>
+                <li><a href="{% url 'home' %}"> home </a></li>
+                <li><a href="{% url 'about' %}"> about </a></li>
+                <li><a href="{% url 'test' %}"> test </a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="slider"></div>
+    <div id="content">
+        <div id="articles">
+            <article class="article"></article>
+            <article class="article"></article>
+            <article class="article"></article>
+        </div>
+    </div>
+    <aside id="aside"></aside>
+    <div id="clear-fix"></div>
+    <footer id="footer"></footer>
+</div>
+
+</body>
+</html>

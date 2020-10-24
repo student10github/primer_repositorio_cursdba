@@ -1,0 +1,1 @@
+SELECT * FROM Nota WHERE prioridad LIKE 'None';
